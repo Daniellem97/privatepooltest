@@ -29,7 +29,7 @@ data "aws_subnets" "this" {
   }
 }
 
-data "aws_ami" "this" {
+data "aws_ami" "this2" {
   most_recent = true
   name_regex  = "^spacelift-\\d{10}-arm64$"
   owners      = ["643313122712"]
